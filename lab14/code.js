@@ -1,8 +1,8 @@
 add = function() {
-result = parseInt(jQuery('#operand_1').html()) + parseInt(jQuery('#operand_2').html());
+result = parseInt(jQuery('#op1').html()) + parseInt(jQuery('#op2').html());
 // jQuery('#operand_1').html('123213213213')
   // alert(result);
-text = jQuery('#operand_1').html() + " + " jQuery('#operand_2').html() + " = "
+text = jQuery('#op1').html() + " + " jQuery('#op2').html() + " = "
 jQuery('#result').html(text + result);
 }
 setup = function() {
