@@ -1,4 +1,4 @@
-say_hell= function(){ //variable
+say_hello= function(){ //variable
 count = 54; //Defining a
             // variable = value (Initizaing)
 count = count *2; //variable = new_value
